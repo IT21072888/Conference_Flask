@@ -1,5 +1,5 @@
 body {
-    background: #6a11cb;
+    background: #1c9fe0;
     background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
     background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
 }
@@ -9,12 +9,10 @@ body {
             height: 100vh;
         }
 
-        /* Remove the outline from the video embed */
         #root video {
             outline: none;
         }
 
-        /* Style the "Back to Dashboard" button */
         .back-to-dashboard {
             position: absolute;
             bottom: 20px;
@@ -29,7 +27,6 @@ body {
             cursor: pointer;
         }
 
-        /* Hide any content that overflows the viewport */
         body {
             overflow: hidden;
         }
